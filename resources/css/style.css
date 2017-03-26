@@ -58,7 +58,6 @@ a {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  border: solid 1px black;
 }
 
 .column.large {
@@ -74,11 +73,9 @@ a {
 }
 
 .story {
-  border: solid 3px black;
 }
 
 .image-text {
-  border: solid 2px black;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
