@@ -29,6 +29,7 @@ a {
   color: black;
 }
 
+/* Classes */
 .logo {
   display: flex;
   align-items: center;
@@ -84,8 +85,34 @@ a {
   color: white;
 }
 
-.flex-item span {
+#main-story .image-content {
+  background-image: url("../image/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.image-content {
+  height: 300px;
+}
+
+.image-content span {
   font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+/* IDs */
+#fall-image {
+  background-image: url("../image/img-story-2.png");
+}
+
+#cam-image {
+  background-image: url("../image/img-story-3.png");
+}
+
+#cat-image {
+  background-image: url("../image/img-story-1.png");
 }
